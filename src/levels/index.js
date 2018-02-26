@@ -5,48 +5,19 @@ exports.levelSequences = {
     require('./intro/commits').level,
     require('./intro/branching').level,
     require('./intro/merging').level,
-    require('./intro/rebasing').level
-  ],
-  rampup: [
-    require('./rampup/detachedHead').level,
-    require('./rampup/relativeRefs').level,
-    require('./rampup/relativeRefs2').level,
-    require('./rampup/reversingChanges').level
-  ],
-  move: [
-    require('./rampup/cherryPick').level,
-    require('./rampup/interactiveRebase').level
-  ],
-  mixed: [
-    require('./mixed/grabbingOneCommit').level,
-    require('./mixed/jugglingCommits').level,
-    require('./mixed/jugglingCommits2').level,
-    require('./mixed/tags').level,
-    require('./mixed/describe').level
-  ],
-  advanced: [
-    require('./rebase/manyRebases').level,
-    require('./advanced/multipleParents').level,
-    require('./rebase/selectiveRebase').level
   ],
   remote: [
     require('./remote/clone').level,
     require('./remote/remoteBranches').level,
     require('./remote/fetch').level,
     require('./remote/pull').level,
-    require('./remote/fakeTeamwork').level,
     require('./remote/push').level,
-    require('./remote/fetchRebase').level
   ],
-  remoteAdvanced: [
-    require('./remote/pushManyFeatures').level,
-    require('./remote/mergeManyFeatures').level,
-    require('./remote/tracking').level,
-    require('./remote/pushArgs').level,
-    require('./remote/pushArgs2').level,
-    require('./remote/fetchArgs').level,
-    require('./remote/sourceNothing').level,
-    require('./remote/pullArgs').level
+  rampup: [
+    require('./rampup/detachedHead').level,
+    require('./rampup/relativeRefs').level,
+    require('./rampup/relativeRefs2').level,
+    require('./rampup/reversingChanges').level
   ]
 };
 
@@ -82,7 +53,7 @@ var sequenceInfo = exports.sequenceInfo = {
   },
   rampup: {
     displayName: {
-      'en_US': 'Ramping Up',
+      'en_US': 'Extra Credit',
       'de_DE': 'Aufstieg',
       'ja'   : '次のレベルに進もう',
       'fr_FR': 'Montée en puissance',
@@ -109,7 +80,6 @@ var sequenceInfo = exports.sequenceInfo = {
     }
   },
   remote: {
-    tab: 'remote',
     displayName: {
       'en_US': 'Push & Pull -- Git Remotes!',
       'de_DE': 'Push & Pull -- entfernte Repositorys',
@@ -138,7 +108,6 @@ var sequenceInfo = exports.sequenceInfo = {
     }
   },
   remoteAdvanced: {
-    tab: 'remote',
     displayName: {
       'en_US': 'To Origin And Beyond -- Advanced Git Remotes!',
       'de_DE': 'Bis zum origin und noch weiter',

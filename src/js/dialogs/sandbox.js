@@ -3,22 +3,19 @@ exports.dialog = {
     type: 'ModalAlert',
     options: {
       markdowns: [
-        '## Welcome to Learn Git Branching',
+        "## Welcome to FullStack's Learn Git",
         '',
-        'Interested in learning Git? Well you\'ve come to the right place! ',
-        '"Learn Git Branching" is the most visual and interactive way to learn Git ',
-        'on the web; you\'ll be challenged with exciting levels, given step-by-step ',
+        'A curated subset of the awesome interactive tutorial by [Peter Cottle](https://github.com/pcottle) ',
+        '',
+        'After this dialog you\'ll see the variety of levels - each one covering one important aspect of Git. ',
+        'Take your time to carefully and thoroughly read all the instructions and explanations while walking through this interactive guide.',
+        '',
+        'You\'ll be challenged with exciting levels, given step-by-step ',
         'demonstrations of powerful features, and maybe even have a bit of fun along the way.',
         '',
-        'After this dialog you\'ll see the variety of levels we have to offer. If you\'re a ',
-        'beginner, just go ahead and start with the first. If you already know some Git basics, ',
-        'try some of our later more challenging levels.',
-        '',
-        'You can see all the commands available with `show commands` at the terminal.',
-        '',
-        'PS: Want to go straight to a sandbox next time?',
-        'Try out ',
-        '[this special link](http://pcottle.github.io/learnGitBranching/?NODEMO)'
+        'Hints:  ',
+        '• You can see all the commands available with `show commands` at the terminal.  ',
+        '• You can Undo, Reset or open the instructions again on the menu in the bottom-right corner.'
       ]
     }
   }],

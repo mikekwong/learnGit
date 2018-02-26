@@ -634,6 +634,7 @@ li.rebaseEntry,
 
 .helperBar i {
   cursor: pointer;
+  font-size: 20px;
 }
 
 .helperBar a {

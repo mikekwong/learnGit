@@ -34,10 +34,6 @@ var MainHelperBarView = React.createClass({
           shown={this.state.shownBar === BARS.COMMANDS}
           onExit={this.showSelf}
         />
-        <IntlHelperBarView
-          shown={this.state.shownBar === BARS.INTL}
-          onExit={this.showSelf}
-        />
       </div>
     );
   },
@@ -56,21 +52,6 @@ var MainHelperBarView = React.createClass({
           shownBar: BARS.COMMANDS
         });
       }.bind(this)
-    }, {
-      icon: 'globe',
-      onClick: function() {
-        this.setState({
-          shownBar: BARS.INTL
-        });
-      }.bind(this)
-    }, {
-      newPageLink: true,
-      icon: 'twitter',
-      href: 'https://twitter.com/petermcottle'
-    }, {
-      newPageLink: true,
-      icon: 'facebook',
-      href: 'https://www.facebook.com/LearnGitBranching'
     }];
   }
 

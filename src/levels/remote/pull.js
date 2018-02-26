@@ -41,10 +41,7 @@ exports.level = {
               "",
               "There are actually many ways to do this -- once you have new commits available locally, you can incorporate them as if they were just normal commits on other branches. This means you could execute commands like:",
               "",
-              "* `git cherry-pick o/master`",
-              "* `git rebase o/master`",
-              "* `git merge o/master`",
-              "* etc., etc.",
+              "* `git merge o/master, etc.`",
               "",
               "In fact, the workflow of *fetching* remote changes and then *merging* them is so common that git actually provides a command that does both at once! That command is `git pull`."
             ]
